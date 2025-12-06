@@ -41,4 +41,4 @@ O Fokus é um aplicativo desenvolvido com **React + Expo** focado em produtivida
     npm start
     ```
 
-5.  Ira exibir no terminal as opçoes de execuçao para: WEB, Android ou Iphone
+5.  Ira exibir no terminal as opções de execução para: WEB, Android ou Iphone
