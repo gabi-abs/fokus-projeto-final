@@ -1,16 +1,44 @@
-# NOMECLATURA (CASE):
-1. `JAVA`
-Apenas uma classe por arquivo. E o nome da classe é o mesmo nome do arquivo, em [PascalCase]. Ex: Arquivo `Usuario`.java, classe `Usuario`.
+# Projeto Fokus
 
-2. `Python`
-Posso ter várias classes dentro de um arquivo.E o nome do arquivo não precisa ser o nome da classe. Ex: Arquivo `veiculo.py`, classe `Carro`, `Veiculo`, `Caminhao`.
-snake_case, nome_do_usuario.
+O Fokus é um aplicativo desenvolvido com **React + Expo** focado em produtividade pessoal. Ele reúne, em um único lugar, ferramentas essenciais para organização do tempo, gestão de tarefas e utilidades do dia a dia, com uma interface simples e objetiva.
 
-3. JSX -> Javascript + XML
-Uma function tem o case [dadosUsuarios][cammelCase].
-Quando você tem uma function que também é um componente, você irá utilizar o [Login][PascalCase] e por boas práticas, o nome do arquivo será o mesmo nome do componente mas utilizando o padrão snake_case.
 
-snake_case => dados_usuarios
-cammelCase => dadosUsuarios
-PascalCase => DadosUsuarios
-kebab-case => dados-usuarios
+
+## ✨ Funcionalidades
+
+* **Timer:** Temporizador baseado na técnica Pomodoro com ciclos de foco e descanso.
+* **Meu CEP:** Consulta de endereços a partir do CEP.
+* **Minhas Tarefas:** Criação, listagem e remoção de tarefas. Organização de atividades do dia a dia.
+
+## 🚀 Tecnologias Utilizadas
+
+* React
+* Expo
+* TypeScript
+* React Native
+* Expo Router
+* Fetch API (para consumo de CEP)
+
+## ⚙️ Como Executar
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/gabi-abs/fokus-projeto-final.git
+    ```
+
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd fokus-projeto-final
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4.  **Execute a aplicação:**
+    ```bash
+    npm start
+    ```
+
+5.  Ira exibir no terminal as opçoes de execuçao para: WEB, Android ou Iphone
